@@ -1,0 +1,1213 @@
+{
+    "levels": 
+    [
+        {
+            "level": 0,
+            "grade": "Новичок",
+            "total_experience": 0,
+            "experience_to_next_level": 10
+        },
+        {
+            "level": 1,
+            "grade": "Новичок",
+            "total_experience": 10,
+            "experience_to_next_level": 40
+        },
+        {
+            "level": 2,
+            "grade": "Новичок",
+            "total_experience": 50,
+            "experience_to_next_level": 60
+        },
+        {
+            "level": 3,
+            "grade": "Новичок",
+            "total_experience": 110,
+            "experience_to_next_level": 90
+        },
+        {
+            "level": 4,
+            "grade": "Обаяшка",
+            "total_experience": 200,
+            "experience_to_next_level": 100
+        },
+        {
+            "level": 5,
+            "grade": "Обаяшка",
+            "total_experience": 300,
+            "experience_to_next_level": 125
+        },
+        {
+            "level": 6,
+            "grade": "Обаяшка",
+            "total_experience": 425,
+            "experience_to_next_level": 165
+        },
+        {
+            "level": 7,
+            "grade": "Надежда племени",
+            "total_experience": 590,
+            "experience_to_next_level": 500
+        },
+        {
+            "level": 8,
+            "grade": "Надежда племени",
+            "total_experience": 1090,
+            "experience_to_next_level": 1475
+        },
+        {
+            "level": 9,
+            "grade": "Надежда племени",
+            "total_experience": 2565,
+            "experience_to_next_level": 2450
+        },
+        {
+            "level": 10,
+            "grade": "Любитель орехов",
+            "total_experience": 5015,
+            "experience_to_next_level": 3625
+        },
+        {
+            "level": 11,
+            "grade": "Любитель орехов",
+            "total_experience": 8640,
+            "experience_to_next_level": 4700
+        },
+        {
+            "level": 12,
+            "grade": "Любитель орехов",
+            "total_experience": 13340,
+            "experience_to_next_level": 5775
+        },
+        {
+            "level": 13,
+            "grade": "Упрямец",
+            "total_experience": 19115,
+            "experience_to_next_level": 6850
+        },
+        {
+            "level": 14,
+            "grade": "Упрямец",
+            "total_experience": 25965,
+            "experience_to_next_level": 5010
+        },
+        {
+            "level": 15,
+            "grade": "Упрямец",
+            "total_experience": 30975,
+            "experience_to_next_level": 11915
+        },
+        {
+            "level": 16,
+            "grade": "Исследователь",
+            "total_experience": 42890,
+            "experience_to_next_level": 7750
+        },
+        {
+            "level": 17,
+            "grade": "Исследователь",
+            "total_experience": 50640,
+            "experience_to_next_level": 6590
+        },
+        {
+            "level": 18,
+            "grade": "Исследователь",
+            "total_experience": 57230,
+            "experience_to_next_level": 5610
+        },
+        {
+            "level": 19,
+            "grade": "Орехбургер",
+            "total_experience": 62840,
+            "experience_to_next_level": 4740
+        },
+        {
+            "level": 20,
+            "grade": "Орехбургер",
+            "total_experience": 67580,
+            "experience_to_next_level": 4090
+        },
+        {
+            "level": 21,
+            "grade": "Орехбургер",
+            "total_experience": 71670,
+            "experience_to_next_level": 3455
+        },
+        {
+            "level": 22,
+            "grade": "Виртуоз",
+            "total_experience": 75125,
+            "experience_to_next_level": 3140 
+        },
+        {
+            "level": 23,
+            "grade": "Виртуоз",
+            "total_experience": 78265,
+            "experience_to_next_level": 2300
+        },
+        {
+            "level": 24,
+            "grade": "Виртуоз",
+            "total_experience": 80565,
+            "experience_to_next_level": 2500
+        },
+        {
+            "level": 25,
+            "grade": "Гордость семьи",
+            "total_experience": 83065,
+            "experience_to_next_level": 2990
+        },
+        {
+            "level": 26,
+            "grade": "Гордость семьи",
+            "total_experience": 86055,
+            "experience_to_next_level": 2770
+        },
+        {
+            "level": 27,
+            "grade": "Гордость семьи",
+            "total_experience": 88825,
+            "experience_to_next_level": 5090
+        },
+        {
+            "level": 28,
+            "grade": "Любимец племени",
+            "total_experience": 93915,
+            "experience_to_next_level": 5120
+        },        {
+            "level": 29,
+            "grade": "Любимец племени",
+            "total_experience": 99035,
+            "experience_to_next_level": 6050
+        },
+        {
+            "level": 30,
+            "grade": "Любимец племени",
+            "total_experience": 105085,
+            "experience_to_next_level": 7415
+        },
+        {
+            "level": 31,
+            "grade": "Герой",
+            "total_experience": 112500,
+            "experience_to_next_level": 7415
+        },
+        {
+            "level": 32,
+            "grade": "Герой",
+            "total_experience": 121275,
+            "experience_to_next_level": 10480
+        },
+        {
+            "level": 33,
+            "grade": "Герой",
+            "total_experience": 131755,
+            "experience_to_next_level": 7760
+        },
+        {
+            "level": 34,
+            "grade": "Ураган",
+            "total_experience": 139515,
+            "experience_to_next_level": 8065
+        },
+        {
+            "level": 35,
+            "grade": "Ураган",
+            "total_experience": 147580,
+            "experience_to_next_level": 8405
+        },
+        {
+            "level": 36,
+            "grade": "Ураган",
+            "total_experience": 155985,
+            "experience_to_next_level": 8755
+        },
+        {
+            "level": 37,
+            "grade": "Старожил",
+            "total_experience": 164740,
+            "experience_to_next_level": 9120
+        },
+        {
+            "level": 38,
+            "grade": "Старожил",
+            "total_experience": 173860,
+            "experience_to_next_level": 9500
+        },
+        {
+            "level": 39,
+            "grade": "Старожил",
+            "total_experience": 183360,
+            "experience_to_next_level": 9900
+        },
+        {
+            "level": 40,
+            "grade": "Чемпион",
+            "total_experience": 193260,
+            "experience_to_next_level": 10315
+        },
+        {
+            "level": 41,
+            "grade": "Чемпион",
+            "total_experience": 203575,
+            "experience_to_next_level": 10750
+        },
+        {
+            "level": 42,
+            "grade": "Чемпион",
+            "total_experience": 214325,
+            "experience_to_next_level": 11200
+        },
+        {
+            "level": 43,
+            "grade": "Славный воин",
+            "total_experience": 225525,
+            "experience_to_next_level": 11670
+        },
+        {
+            "level": 44,
+            "grade": "Славный воин",
+            "total_experience": 237195,
+            "experience_to_next_level": 12155
+        },
+        {
+            "level": 45,
+            "grade": "Славный воин",
+            "total_experience": 249350,
+            "experience_to_next_level": 12665
+        },
+        {
+            "level": 46,
+            "grade": "Матерая белка",
+            "total_experience": 262015,
+            "experience_to_next_level": 13195
+        },
+        {
+            "level": 47,
+            "grade": "Матерая белка",
+            "total_experience": 275210,
+            "experience_to_next_level": 13745
+        },
+        {
+            "level": 48,
+            "grade": "Матерая белка",
+            "total_experience": 288955,
+            "experience_to_next_level": 14320
+        },
+        {
+            "level": 49,
+            "grade": "Рыжий зверь",
+            "total_experience": 303275,
+            "experience_to_next_level": 14920
+        },
+        {
+            "level": 50,
+            "grade": "Рыжий зверь",
+            "total_experience": 318195,
+            "experience_to_next_level": 15545
+        },
+        {
+            "level": 51,
+            "grade": "Рыжий зверь",
+            "total_experience": 333740,
+            "experience_to_next_level": 16205
+        },
+        {
+            "level": 52,
+            "grade": "Избранный",
+            "total_experience": 349945,
+            "experience_to_next_level": 16860
+        },
+        {
+            "level": 53,
+            "grade": "Избранный",
+            "total_experience": 366805,
+            "experience_to_next_level": 17580
+        },
+        {
+            "level": 54,
+            "grade": "Избранный",
+            "total_experience": 384385,
+            "experience_to_next_level": 18490
+        },
+        {
+            "level": 55,
+            "grade": "Красная масть",
+            "total_experience": 402875,
+            "experience_to_next_level": 18905
+        },
+        {
+            "level": 56,
+            "grade": "Красная масть",
+            "total_experience": 421780,
+            "experience_to_next_level": 19980
+        },
+        {
+            "level": 57,
+            "grade": "Красная масть",
+            "total_experience": 441760,
+            "experience_to_next_level": 20610
+        },
+        {
+            "level": 58,
+            "grade": "Звезда",
+            "total_experience": 462370,
+            "experience_to_next_level": 21580
+        },
+        {
+            "level": 59,
+            "grade": "Звезда",
+            "total_experience": 483950,
+            "experience_to_next_level": 21470
+        },
+        {
+            "level": 60,
+            "grade": "Звезда",
+            "total_experience": 505420,
+            "experience_to_next_level": 24430
+        },
+        {
+            "level": 61,
+            "grade": "Огненный смерч",
+            "total_experience": 529850,
+            "experience_to_next_level": 24400
+        },
+        {
+            "level": 62,
+            "grade": "Огненный смерч",
+            "total_experience": 554250,
+            "experience_to_next_level": 25420
+        },
+        {
+            "level": 63,
+            "grade": "Огненный смерч",
+            "total_experience": 579670,
+            "experience_to_next_level": 26490
+        },
+        {
+            "level": 64,
+            "grade": "Комета",
+            "total_experience": 606160,
+            "experience_to_next_level": 27595
+        },
+        {
+            "level": 65,
+            "grade": "Комета",
+            "total_experience": 633755,
+            "experience_to_next_level": 28750
+        },
+        {
+            "level": 66,
+            "grade": "Комета",
+            "total_experience": 662505,
+            "experience_to_next_level": 28750
+        },
+        {
+            "level": 67,
+            "grade": "Игроман",
+            "total_experience": 691255,
+            "experience_to_next_level": 28540
+        },
+        {
+            "level": 68,
+            "grade": "Игроман",
+            "total_experience": 719795,
+            "experience_to_next_level": 28335
+        },        {
+            "level": 69,
+            "grade": "Игроман",
+            "total_experience": 748130,
+            "experience_to_next_level": 28130
+        },
+        {
+            "level": 70,
+            "grade": "Неуловимый",
+            "total_experience": 776260,
+            "experience_to_next_level": 27825
+        },
+        {
+            "level": 71,
+            "grade": "Неуловимый",
+            "total_experience": 804085,
+            "experience_to_next_level": 27685
+        },
+        {
+            "level": 72,
+            "grade": "Неуловимый",
+            "total_experience": 831770,
+            "experience_to_next_level": 27655
+        },
+        {
+            "level": 73,
+            "grade": "Молниеносный",
+            "total_experience": 859425,
+            "experience_to_next_level": 27320
+        },
+        {
+            "level": 74,
+            "grade": "Молниеносный",
+            "total_experience": 886745,
+            "experience_to_next_level": 27120
+        },
+        {
+            "level": 75,
+            "grade": "Молниеносный",
+            "total_experience": 913865,
+            "experience_to_next_level": 26925
+        },
+        {
+            "level": 76,
+            "grade": "Властитель",
+            "total_experience": 940790,
+            "experience_to_next_level": 26730
+        },
+        {
+            "level": 77,
+            "grade": "Властитель",
+            "total_experience": 967520,
+            "experience_to_next_level": 26535
+        },
+        {
+            "level": 78,
+            "grade": "Властитель",
+            "total_experience": 994055,
+            "experience_to_next_level": 26340
+        },
+        {
+            "level": 79,
+            "grade": "Космобелка",
+            "total_experience": 1020395,
+            "experience_to_next_level": 26150
+        },
+        {
+            "level": 80,
+            "grade": "Космобелка",
+            "total_experience": 1046545,
+            "experience_to_next_level": 26200
+        },
+        {
+            "level": 81,
+            "grade": "Космобелка",
+            "total_experience": 1072745,
+            "experience_to_next_level": 26375
+        },
+        {
+            "level": 82,
+            "grade": "Орехоман",
+            "total_experience": 1099120,
+            "experience_to_next_level": 26550
+        },
+        {
+            "level": 83,
+            "grade": "Орехоман",
+            "total_experience": 1125670,
+            "experience_to_next_level": 26730
+        },
+        {
+            "level": 84,
+            "grade": "Орехоман",
+            "total_experience": 1152400,
+            "experience_to_next_level": 26910
+        },
+        {
+            "level": 85,
+            "grade": "Смельчак",
+            "total_experience": 1179310,
+            "experience_to_next_level": 27090
+        },
+        {
+            "level": 86,
+            "grade": "Смельчак",
+            "total_experience": 1206400,
+            "experience_to_next_level": 27270
+        },
+        {
+            "level": 87,
+            "grade": "Смельчак",
+            "total_experience": 1233670,
+            "experience_to_next_level": 26755
+        },
+        {
+            "level": 88,
+            "grade": "Бывалый",
+            "total_experience": 1260425,
+            "experience_to_next_level": 28420
+        },        {
+            "level": 89,
+            "grade": "Бывалый",
+            "total_experience": 1288845,
+            "experience_to_next_level": 28745
+        },
+        {
+            "level": 90,
+            "grade": "Бывалый",
+            "total_experience": 1317590,
+            "experience_to_next_level": 27010
+        },
+        {
+            "level": 91,
+            "grade": "Весельчак",
+            "total_experience": 1344600,
+            "experience_to_next_level": 28200
+        },
+        {
+            "level": 92,
+            "grade": "Весельчак",
+            "total_experience": 1372800,
+            "experience_to_next_level": 28390
+        },
+        {
+            "level": 93,
+            "grade": "Весельчак",
+            "total_experience": 1401190,
+            "experience_to_next_level": 28580
+        },
+        {
+            "level": 94,
+            "grade": "Гончий",
+            "total_experience": 1429770,
+            "experience_to_next_level": 28770
+        },
+        {
+            "level": 95,
+            "grade": "Гончий",
+            "total_experience": 1487500,
+            "experience_to_next_level": 29160
+        },
+        {
+            "level": 96,
+            "grade": "Гончий",
+            "total_experience": 1487500,
+            "experience_to_next_level": 29160
+        },
+        {
+            "level": 97,
+            "grade": "Неистовый",
+            "total_experience": 151660,
+            "experience_to_next_level": 29350
+        },
+        {
+            "level": 98,
+            "grade": "Неистовый",
+            "total_experience": 1546010,
+            "experience_to_next_level": 29550
+        },
+        {
+            "level": 99,
+            "grade": "Неистовый",
+            "total_experience": 1575560,
+            "experience_to_next_level": 29750
+        },
+        {
+            "level": 100,
+            "grade": "Шумахер",
+            "total_experience": 1605310,
+            "experience_to_next_level": 29950
+        },
+        {
+            "level": 101,
+            "grade": "Шумахер",
+            "total_experience": 1635260,
+            "experience_to_next_level": 30150
+        },
+        {
+            "level": 102,
+            "grade": "Шумахер",
+            "total_experience": 1665410,
+            "experience_to_next_level": 30350
+        },
+        {
+            "level": 103,
+            "grade": "Стремительный",
+            "total_experience": 1695760,
+            "experience_to_next_level": 30380
+        },
+        {
+            "level": 104,
+            "grade": "Стремительный",
+            "total_experience": 1726140,
+            "experience_to_next_level": 30930
+        },
+        {
+            "level": 105,
+            "grade": "Стремительный",
+            "total_experience": 1757070,
+            "experience_to_next_level": 30965
+        },
+        {
+            "level": 106,
+            "grade": "Просветленный",
+            "total_experience": 1788035,
+            "experience_to_next_level": 31170
+        },
+        {
+            "level": 107,
+            "grade": "Просветленный",
+            "total_experience": 1819205,
+            "experience_to_next_level": 31380
+        },
+        {
+            "level": 108,
+            "grade": "Просветленный",
+            "total_experience": 1850585,
+            "experience_to_next_level": 31590
+        },
+        {
+            "level": 109,
+            "grade": "Долгожитель",
+            "total_experience": 1882175,
+            "experience_to_next_level": 31800
+        },
+        {
+            "level": 110,
+            "grade": "Долгожитель",
+            "total_experience": 1913975,
+            "experience_to_next_level": 32015
+        },
+        {
+            "level": 111,
+            "grade": "Долгожитель",
+            "total_experience": 1945990,
+            "experience_to_next_level": 32230
+        },
+        {
+            "level": 112,
+            "grade": "Знаток",
+            "total_experience": 1978220,
+            "experience_to_next_level": 32445
+        },
+        {
+            "level": 113,
+            "grade": "Знаток",
+            "total_experience": 2010665,
+            "experience_to_next_level": 32755
+        },
+        {
+            "level": 114,
+            "grade": "Знаток",
+            "total_experience": 2043420,
+            "experience_to_next_level": 32795
+        },
+        {
+            "level": 115,
+            "grade": "Ветеран",
+            "total_experience": 2076215,
+            "experience_to_next_level": 33105
+        },
+        {
+            "level": 116,
+            "grade": "Ветеран",
+            "total_experience": 2109320,
+            "experience_to_next_level": 33325
+        },
+        {
+            "level": 117,
+            "grade": "Ветеран",
+            "total_experience": 2142645,
+            "experience_to_next_level": 33550
+        },
+        {
+            "level": 118,
+            "grade": "Непоседа",
+            "total_experience": 2176195,
+            "experience_to_next_level": 33775
+        },
+        {
+            "level": 119,
+            "grade": "Непоседа",
+            "total_experience": 2209970,
+            "experience_to_next_level": 34000
+        },
+        {
+            "level": 120,
+            "grade": "Непоседа",
+            "total_experience": 2243970,
+            "experience_to_next_level": 34400
+        },
+        {
+            "level": 121,
+            "grade": "Профессионал",
+            "total_experience": 2278370,
+            "experience_to_next_level": 35900
+        },
+        {
+            "level": 122,
+            "grade": "Профессионал",
+            "total_experience": 2314270,
+            "experience_to_next_level": 37465
+        },
+        {
+            "level": 123,
+            "grade": "Профессионал",
+            "total_experience": 2351735,
+            "experience_to_next_level": 39095
+        },
+        {
+            "level": 124,
+            "grade": "Следопыт",
+            "total_experience": 2390830,
+            "experience_to_next_level": 40800
+        },
+        {
+            "level": 125,
+            "grade": "Следопыт",
+            "total_experience": 2431630,
+            "experience_to_next_level": 42580
+        },
+        {
+            "level": 126,
+            "grade": "Следопыт",
+            "total_experience": 2474210,
+            "experience_to_next_level": 44435
+        },
+        {
+            "level": 127,
+            "grade": "Хвастунишка",
+            "total_experience": 2518645,
+            "experience_to_next_level": 46370
+        },
+        {
+            "level": 128,
+            "grade": "Хвастунишка",
+            "total_experience": 2565015,
+            "experience_to_next_level": 48390
+        },
+        {
+            "level": 129,
+            "grade": "Хвастунишка",
+            "total_experience": 2613405,
+            "experience_to_next_level": 50500
+        },
+        {
+            "level": 130,
+            "grade": "Экстремал",
+            "total_experience": 2663905,
+            "experience_to_next_level": 52700
+        },
+        {
+            "level": 131,
+            "grade": "Экстремал",
+            "total_experience": 2716605,
+            "experience_to_next_level": 54790
+        },
+        {
+            "level": 132,
+            "grade": "Экстремал",
+            "total_experience": 2771395,
+            "experience_to_next_level": 57600
+        },
+        {
+            "level": 133,
+            "grade": "МегаБелка",
+            "total_experience": 2828995,
+            "experience_to_next_level": 59895
+        },
+        {
+            "level":  134,
+            "grade": "МегаБелка",
+            "total_experience": 2888890,
+            "experience_to_next_level": 62505
+        },
+        {
+            "level": 135,
+            "grade": "МегаБелка",
+            "total_experience": 2951395,
+            "experience_to_next_level": 65230
+        },
+        {
+            "level": 136,
+            "grade": "Вождь",
+            "total_experience": 3016625,
+            "experience_to_next_level": 68070
+        },
+        {
+            "level": 137,
+            "grade": "Вождь",
+            "total_experience": 3084695,
+            "experience_to_next_level": 71040
+        },
+        {
+            "level": 138,
+            "grade": "Вождь",
+            "total_experience": 3155735,
+            "experience_to_next_level": 73920
+        },
+        {
+            "level": 139,
+            "grade": "Просвещенный",
+            "total_experience": 3229655,
+            "experience_to_next_level": 77570
+        },
+        {
+            "level": 140,
+            "grade": "Просвещенный",
+            "total_experience": 3307225,
+            "experience_to_next_level": 80735
+        },
+        {
+            "level": 141,
+            "grade": "Просвещенный",
+            "total_experience": 3387960,
+            "experience_to_next_level": 84250
+        },
+        {
+            "level": 142,
+            "grade": "Царь-Белка",
+            "total_experience": 3472210,
+            "experience_to_next_level": 87920
+        },
+        {
+            "level": 143,
+            "grade": "Царь-Белка",
+            "total_experience": 3560130,
+            "experience_to_next_level": 91755
+        },
+        {
+            "level": 144,
+            "grade": "Царь-Белка",
+            "total_experience": 3651885,
+            "experience_to_next_level": 95750
+        },
+        {
+            "level": 145,
+            "grade": "Самая лучшая белка",
+            "total_experience": 3747635,
+            "experience_to_next_level": 99925
+        },
+        {
+            "level": 146,
+            "grade": "Самая лучшая белка",
+            "total_experience": 3847560,
+            "experience_to_next_level": 104280
+        },
+        {
+            "level": 147,
+            "grade": "Самая лучшая белка",
+            "total_experience": 3951840,
+            "experience_to_next_level": 108825
+        },
+        {
+            "level": 148,
+            "grade": "Чак Норрис",
+            "total_experience": 4060665,
+            "experience_to_next_level": 113565
+        },
+        {
+            "level": 149,
+            "grade": "Чак Норрис",
+            "total_experience": 4174230,
+            "experience_to_next_level": 118245
+        },
+        {
+            "level": 150,
+            "grade": "Чак Норрис",
+            "total_experience": 4292475,
+            "experience_to_next_level": 123680
+        },
+        {
+            "level": 151,
+            "grade": "Чудесный",
+            "total_experience": 4416155,
+            "experience_to_next_level": 129340
+        },
+        {
+            "level": 152,
+            "grade": "Чудесный",
+            "total_experience": 4545495,
+            "experience_to_next_level": 134695
+        },
+        {
+            "level": 153,
+            "grade": "Чудесный",
+            "total_experience": 4680190,
+            "experience_to_next_level": 140565
+        },
+        {
+            "level": 154,
+            "grade": "Неустрашимый",
+            "total_experience": 4820755,
+            "experience_to_next_level": 146690
+        },
+        {
+            "level": 155,
+            "grade": "Неустрашимый",
+            "total_experience": 4967445,
+            "experience_to_next_level": 153080
+        },
+        {
+            "level": 156,
+            "grade": "Неустрашимый",
+            "total_experience": 5120525,
+            "experience_to_next_level": 159750
+        },
+        {
+            "level": 157,
+            "grade": "Терпеливый",
+            "total_experience": 5280275,
+            "experience_to_next_level": 166710
+        },
+        {
+            "level": 158,
+            "grade": "Терпеливый",
+            "total_experience": 5446985,
+            "experience_to_next_level": 173975
+        },
+        {
+            "level": 159,
+            "grade": "Терпеливый",
+            "total_experience": 5620960,
+            "experience_to_next_level": 178975
+        },
+        {
+            "level": 160,
+            "grade": "Суровый",
+            "total_experience": 5799935,
+            "experience_to_next_level": 189470
+        },
+        {
+            "level": 161,
+            "grade": "Суровый",
+            "total_experience": 5989405,
+            "experience_to_next_level": 197730
+        },
+        {
+            "level": 162,
+            "grade": "Суровый",
+            "total_experience": 6187135,
+            "experience_to_next_level": 206345
+        },
+        {
+            "level": 163,
+            "grade": "Созерцатель",
+            "total_experience": 6393480,
+            "experience_to_next_level": 215335
+        },
+        {
+            "level": 164,
+            "grade": "Созерцатель",
+            "total_experience": 6608815,
+            "experience_to_next_level": 224720
+        },
+        {
+            "level": 165,
+            "grade": "Созерцатель",
+            "total_experience": 6833535,
+            "experience_to_next_level": 234510
+        },
+        {
+            "level": 166,
+            "grade": "Проницательный",
+            "total_experience": 7068045,
+            "experience_to_next_level": 244730
+        },
+        {
+            "level": 167,
+            "grade": "Проницательный",
+            "total_experience": 7312775,
+            "experience_to_next_level": 255400
+        },
+        {
+            "level": 168,
+            "grade": "Проницательный",
+            "total_experience": 7568175,
+            "experience_to_next_level": 266525
+        },        {
+            "level": 169,
+            "grade": "Обожаемый",
+            "total_experience": 7834700,
+            "experience_to_next_level": 278140
+        },
+        {
+            "level": 170,
+            "grade": "Обожаемый",
+            "total_experience": 8112840,
+            "experience_to_next_level": 290260
+        },
+        {
+            "level": 171,
+            "grade": "Обожаемый",
+            "total_experience": 8403100,
+            "experience_to_next_level": 302910
+        },
+        {
+            "level": 172,
+            "grade": "Неукротимый",
+            "total_experience": 8706010,
+            "experience_to_next_level": 316110
+        },
+        {
+            "level": 173,
+            "grade": "Неукротимый",
+            "total_experience": 9022120,
+            "experience_to_next_level": 329885
+        },
+        {
+            "level": 174,
+            "grade": "Неукротимый",
+            "total_experience": 9352005,
+            "experience_to_next_level": 344050
+        },
+        {
+            "level": 175,
+            "grade": "Магистр",
+            "total_experience": 9696055,
+            "experience_to_next_level": 359470
+        },
+        {
+            "level": 176,
+            "grade": "Магистр",
+            "total_experience": 10055525,
+            "experience_to_next_level": 374915
+        },
+        {
+            "level": 177,
+            "grade": "Магистр",
+            "total_experience": 10430440,
+            "experience_to_next_level": 302910
+        },
+        {
+            "level": 178,
+            "grade": "Необузданный",
+            "total_experience": 10733350,
+            "experience_to_next_level": 351376
+        },
+        {
+            "level": 179,
+            "grade": "Необузданный",
+            "total_experience": 11084726,
+            "experience_to_next_level": 407596
+        },
+        {
+            "level": 180,
+            "grade": "Необузданный",
+            "total_experience": 11492322,
+            "experience_to_next_level": 472811
+        },
+        {
+            "level": 181,
+            "grade": "Магистр",
+            "total_experience": 11965133,
+            "experience_to_next_level": 548461
+        },
+        {
+            "level": 182,
+            "grade": "Магистр",
+            "total_experience": 12513594,
+            "experience_to_next_level": 636214
+        },
+        {
+            "level": 183,
+            "grade": "Магистр",
+            "total_experience": 13149808,
+            "experience_to_next_level": 738009
+        },
+        {
+            "level": 184,
+            "grade": "Искатель",
+            "total_experience": 13887817,
+            "experience_to_next_level": 856090
+        },
+        {
+            "level": 185,
+            "grade": "Искатель",
+            "total_experience": 14743907,
+            "experience_to_next_level": 993065
+        },
+        {
+            "level": 186,
+            "grade": "Искатель",
+            "total_experience": 15736972,
+            "experience_to_next_level": 1151955
+        },
+        {
+            "level": 187,
+            "grade": "Бесстрашный",
+            "total_experience": 16888927,
+            "experience_to_next_level": 1336088
+        },
+        {
+            "level": 188,
+            "grade": "Бесстрашный",
+            "total_experience": 18225015,
+            "experience_to_next_level": 1550251
+        },
+        {
+            "level": 189,
+            "grade": "Бесстрашный",
+            "total_experience": 19775266,
+            "experience_to_next_level": 1798082
+        },
+        {
+            "level": 190,
+            "grade": "Неуловимый",
+            "total_experience": 21573348,
+            "experience_to_next_level": 2085775
+        },
+        {
+            "level": 191,
+            "grade": "Неуловимый",
+            "total_experience": 23659123,
+            "experience_to_next_level": 2419499
+        },
+        {
+            "level": 192,
+            "grade": "Неуловимый",
+            "total_experience": 26078622,
+            "experience_to_next_level": 2806619
+        },
+        {
+            "level": 193,
+            "grade": "Бессметрный",
+            "total_experience": 28885241,
+            "experience_to_next_level": 3255678
+        },
+        {
+            "level": 194,
+            "grade": "Бессметрный",
+            "total_experience": 32140919,
+            "experience_to_next_level": 3776586
+        },
+        {
+            "level": 195,
+            "grade": "Бессметрный",
+            "total_experience": 35917505,
+            "experience_to_next_level": 4380840
+        },
+        {
+            "level": 196,
+            "grade": "Испытанный",
+            "total_experience": 40298345,
+            "experience_to_next_level": 5081560
+        },
+        {
+            "level": 197,
+            "grade": "Испытанный",
+            "total_experience": 45379905,
+            "experience_to_next_level": 5895074
+        },
+        {
+            "level": 198,
+            "grade": "Испытанный",
+            "total_experience": 51274979,
+            "experience_to_next_level": 6838036
+        },
+        {
+            "level": 199,
+            "grade": "Божественный",
+            "total_experience": 58113015,
+            "experience_to_next_level": 7932122
+        },
+        {
+            "level": 200,
+            "grade": "Чокнутый",
+            "total_experience": 66045137,
+            "experience_to_next_level": "Infinity"
+        }
+
+    ],
+    "Info": {
+        "document_author": "Eixini",
+        "date_of_document": "15 May 2024",
+        "author_page": "https://github.com/Eixini"
+    }
+}
