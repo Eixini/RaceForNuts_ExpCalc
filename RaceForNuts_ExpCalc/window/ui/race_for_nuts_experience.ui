@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Window</class>
+ <widget class="QWidget" name="Window">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>775</width>
+    <height>677</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Трагедия белок - калькулятор опыта</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_3">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QLabel" name="level_combobox_label">
+         <property name="text">
+          <string>Введите текущий уровень</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="current_level_spinbox">
+         <property name="maximum">
+          <number>200</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QLabel" name="level_combobox_label_2">
+         <property name="text">
+          <string>До следующего уровня осталось опыта</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QSpinBox" name="experience_spinbox">
+         <property name="maximum">
+          <number>999999999</number>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <widget class="QLabel" name="target_level_combobox_label">
+       <property name="text">
+        <string>Введите желаемый уровень</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QSpinBox" name="target_level_spinbox">
+       <property name="maximum">
+        <number>200</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="exp_info_table">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="tabKeyNavigation">
+      <bool>false</bool>
+     </property>
+     <property name="showDropIndicator" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="dragDropOverwriteMode">
+      <bool>false</bool>
+     </property>
+     <property name="alternatingRowColors">
+      <bool>false</bool>
+     </property>
+     <property name="rowCount">
+      <number>6</number>
+     </property>
+     <property name="columnCount">
+      <number>4</number>
+     </property>
+     <attribute name="horizontalHeaderVisible">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="horizontalHeaderCascadingSectionResizes">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="horizontalHeaderHighlightSections">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="horizontalHeaderStretchLastSection">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="verticalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="verticalHeaderCascadingSectionResizes">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="verticalHeaderStretchLastSection">
+      <bool>true</bool>
+     </attribute>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <column>
+      <property name="text">
+       <string>Локация</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Опыт</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Опыт с VIP</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Орехи</string>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="text">
+       <string>Солнечные долины</string>
+      </property>
+     </item>
+     <item row="0" column="1">
+      <property name="text">
+       <string>25</string>
+      </property>
+     </item>
+     <item row="0" column="2">
+      <property name="text">
+       <string>50</string>
+      </property>
+     </item>
+     <item row="0" column="3">
+      <property name="text">
+       <string>5</string>
+      </property>
+     </item>
+     <item row="1" column="0">
+      <property name="text">
+       <string>Топи</string>
+      </property>
+     </item>
+     <item row="1" column="1">
+      <property name="text">
+       <string>40</string>
+      </property>
+     </item>
+     <item row="1" column="2">
+      <property name="text">
+       <string>80</string>
+      </property>
+     </item>
+     <item row="1" column="3">
+      <property name="text">
+       <string>6</string>
+      </property>
+     </item>
+     <item row="2" column="0">
+      <property name="text">
+       <string>Шторм</string>
+      </property>
+     </item>
+     <item row="2" column="1">
+      <property name="text">
+       <string>40</string>
+      </property>
+     </item>
+     <item row="2" column="2">
+      <property name="text">
+       <string>80</string>
+      </property>
+     </item>
+     <item row="2" column="3">
+      <property name="text">
+       <string>7</string>
+      </property>
+     </item>
+     <item row="3" column="0">
+      <property name="text">
+       <string>Испытания</string>
+      </property>
+     </item>
+     <item row="3" column="1">
+      <property name="text">
+       <string>70</string>
+      </property>
+     </item>
+     <item row="3" column="2">
+      <property name="text">
+       <string>140</string>
+      </property>
+     </item>
+     <item row="3" column="3">
+      <property name="text">
+       <string>8</string>
+      </property>
+     </item>
+     <item row="4" column="0">
+      <property name="text">
+       <string>Пустыня</string>
+      </property>
+     </item>
+     <item row="4" column="1">
+      <property name="text">
+       <string>60</string>
+      </property>
+     </item>
+     <item row="4" column="2">
+      <property name="text">
+       <string>120</string>
+      </property>
+     </item>
+     <item row="4" column="3">
+      <property name="text">
+       <string>8</string>
+      </property>
+     </item>
+     <item row="5" column="0">
+      <property name="text">
+       <string>Аномальная зона</string>
+      </property>
+     </item>
+     <item row="5" column="1">
+      <property name="text">
+       <string>80</string>
+      </property>
+     </item>
+     <item row="5" column="2">
+      <property name="text">
+       <string>160</string>
+      </property>
+     </item>
+     <item row="5" column="3">
+      <property name="text">
+       <string>10</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_4">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="result_button">
+       <property name="text">
+        <string>Рассчитать</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_10">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_6">
+         <item>
+          <widget class="QLabel" name="current_level_label">
+           <property name="font">
+            <font>
+             <family>Ubuntu</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>Текущий уровень:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="current_level_value_label">
+           <property name="font">
+            <font>
+             <family>Ubuntu</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_7">
+         <item>
+          <widget class="QLabel" name="target_level_label">
+           <property name="font">
+            <font>
+             <family>Ubuntu</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>Целевой уровень:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="target_level_value_label">
+           <property name="font">
+            <font>
+             <family>Ubuntu</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_8">
+         <item>
+          <widget class="QLabel" name="current_level_exp_label">
+           <property name="font">
+            <font>
+             <family>Ubuntu</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>Текущий опыт уровня:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="current_level_exp_value_label">
+           <property name="font">
+            <font>
+             <family>Ubuntu</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_9">
+         <item>
+          <widget class="QLabel" name="target_level_exp_label">
+           <property name="font">
+            <font>
+             <family>Ubuntu</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>Необходимо опыта:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="target_level_exp_value_label">
+           <property name="font">
+            <font>
+             <family>Ubuntu</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_5">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTableWidget" name="result_table">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="tabKeyNavigation">
+      <bool>false</bool>
+     </property>
+     <property name="showDropIndicator" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="dragDropOverwriteMode">
+      <bool>false</bool>
+     </property>
+     <property name="alternatingRowColors">
+      <bool>false</bool>
+     </property>
+     <property name="rowCount">
+      <number>6</number>
+     </property>
+     <property name="columnCount">
+      <number>5</number>
+     </property>
+     <attribute name="horizontalHeaderVisible">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="horizontalHeaderCascadingSectionResizes">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="horizontalHeaderHighlightSections">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="horizontalHeaderStretchLastSection">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="verticalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="verticalHeaderCascadingSectionResizes">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="verticalHeaderStretchLastSection">
+      <bool>true</bool>
+     </attribute>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <row/>
+     <column>
+      <property name="text">
+       <string>Локация</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Игр</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Игр с VIP</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Орехи</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Орехи с VIP</string>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="text">
+       <string>Солнечные долины</string>
+      </property>
+     </item>
+     <item row="0" column="1">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="0" column="2">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="0" column="3">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="0" column="4">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="1" column="0">
+      <property name="text">
+       <string>Топи</string>
+      </property>
+     </item>
+     <item row="1" column="1">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="1" column="2">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="1" column="3">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="1" column="4">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="2" column="0">
+      <property name="text">
+       <string>Шторм</string>
+      </property>
+     </item>
+     <item row="2" column="1">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="2" column="2">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="2" column="3">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="2" column="4">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="3" column="0">
+      <property name="text">
+       <string>Испытания</string>
+      </property>
+     </item>
+     <item row="3" column="1">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="3" column="2">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="3" column="3">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="3" column="4">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="4" column="0">
+      <property name="text">
+       <string>Пустыня</string>
+      </property>
+     </item>
+     <item row="4" column="1">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="4" column="2">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="4" column="3">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="4" column="4">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="5" column="0">
+      <property name="text">
+       <string>Аномальная зона</string>
+      </property>
+     </item>
+     <item row="5" column="1">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="5" column="2">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="5" column="3">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="5" column="4">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Eixini (Roman Räximov)   --- ID: 3349442 --- ver. 1.0.0 (16.05.2024)</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
