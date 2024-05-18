@@ -1,19 +1,16 @@
 from PySide6.QtWidgets import QWidget, QHeaderView, QMessageBox, QTableWidgetItem
 from PySide6.QtCore import QFile, QJsonDocument, QIODevice
-from PySide6.QtGui import QPixmap
-from RaceForNuts_ExpCalc.window.ui_gen.ui_race_for_nuts_experience import Ui_Window
-from RaceForNuts_ExpCalc.resources import data_rc, icons_rc
+from RaceForNuts_ExpCalc.experience_window.ui_gen.ui_experience_window import Ui_ExperienceWindow
+from RaceForNuts_ExpCalc.resources import data_rc
 import json
 import math
 
 
-class Window(QWidget):
+class ExperienceWindow(QWidget):
     def __init__(self):
         super().__init__()
-        self.ui = Ui_Window()
+        self.ui = Ui_ExperienceWindow()
         self.ui.setupUi(self)
-
-        self.setWindowIcon(QPixmap(':/icons/race_for_nuts_experience.png'))
 
         self.current_exp = 0
         self.current_total_exp = 0
@@ -38,9 +35,10 @@ class Window(QWidget):
             self.current_exp = 0
 
     def calculation(self):
-        if self.ui.current_level_spinbox.value() > self.ui.target_level_spinbox.value():
+        if (self.ui.current_level_spinbox.value() > self.ui.target_level_spinbox.value()
+                or self.ui.current_level_spinbox.value() == self.ui.target_level_spinbox.value()):
             msg_box = QMessageBox()
-            msg_box.setText('Текущий уровень не может быть выше целевого.')
+            msg_box.setText('Текущий уровень не может быть выше или равен целевому.')
             msg_box.setWindowTitle('Ошибка')
             msg_box.exec()
         else:
@@ -74,9 +72,11 @@ class Window(QWidget):
         byte_array = file.readAll()
         file.close()
 
-        json_document = QJsonDocument.fromJson(byte_array)
+        # json_document = QJsonDocument.fromJson(byte_array)
+        #
+        # print(byte_array.data())
 
-        json_dict = json.loads(json_document.toJson().data())
+        json_dict = json.loads(byte_array.data())
 
         for el in json_dict.get('levels'):
             self._data.append(el)

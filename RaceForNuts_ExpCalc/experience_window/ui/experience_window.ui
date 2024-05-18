@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Window</class>
- <widget class="QWidget" name="Window">
+ <class>ExperienceWindow</class>
+ <widget class="QWidget" name="ExperienceWindow">
   <property name="enabled">
    <bool>true</bool>
   </property>
@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>775</width>
-    <height>677</height>
+    <width>798</width>
+    <height>688</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -710,13 +710,6 @@
        <string>0</string>
       </property>
      </item>
-    </widget>
-   </item>
-   <item>
-    <widget class="QLabel" name="label">
-     <property name="text">
-      <string>Eixini (Roman Räximov)   --- ID: 3349442 --- ver. 1.0.0 (16.05.2024)</string>
-     </property>
     </widget>
    </item>
   </layout>
