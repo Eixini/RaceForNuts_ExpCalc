@@ -1205,7 +1205,368 @@
         }
 
     ],
-    "Info": {
+    "shaman_levels": 
+    [
+        {
+            "level": 1,
+            "total_shaman_experience": 0,
+            "shaman_experience_to_next_level" : 80,
+            "stage": 1,
+            "open_skills_count": 1
+        },
+        {
+            "level": 2,
+            "total_shaman_experience": 80,
+            "shaman_experience_to_next_level" : 220,
+            "stage": 2,
+            "open_skills_count": 4
+        },
+        {
+            "level": 3,
+            "total_shaman_experience": 300,
+            "shaman_experience_to_next_level" : 420,
+            "stage": 2,
+            "open_skills_count": 4
+        },
+        {
+            "level": 4,
+            "total_shaman_experience": 720,
+            "shaman_experience_to_next_level" : 680,
+            "stage": 2,
+            "open_skills_count": 4
+        },
+        {
+            "level": 5,
+            "total_shaman_experience": 1400,
+            "shaman_experience_to_next_level" : 1000,
+            "stage": 2,
+            "open_skills_count": 4
+        },
+        {
+            "level": 6,
+            "total_shaman_experience": 2400,
+            "shaman_experience_to_next_level" : 1380,
+            "stage": 2,
+            "open_skills_count": 4
+        },
+        {
+            "level": 7,
+            "total_shaman_experience": 3780,
+            "shaman_experience_to_next_level" : 1820,
+            "stage": 3,
+            "open_skills_count": 7
+        },
+        {
+            "level": 8,
+            "total_shaman_experience": 5600,
+            "shaman_experience_to_next_level" : 2320,
+            "stage": 3,
+            "open_skills_count": 7
+        },
+        {
+            "level": 9,
+            "total_shaman_experience": 7920,
+            "shaman_experience_to_next_level" : 2880,
+            "stage": 3,
+            "open_skills_count": 7
+        },
+        {
+            "level": 10,
+            "total_shaman_experience": 10800,
+            "shaman_experience_to_next_level" : 3500,
+            "stage": 3,
+            "open_skills_count": 7
+        },
+        {
+            "level": 11,
+            "total_shaman_experience": 14300,
+            "shaman_experience_to_next_level" : 4180,
+            "stage": 3,
+            "open_skills_count": 7
+        },
+        {
+            "level": 12,
+            "total_shaman_experience": 18480,
+            "shaman_experience_to_next_level" : 4920,
+            "stage": 3,
+            "open_skills_count": 7
+        },
+        {
+            "level": 13,
+            "total_shaman_experience": 23400,
+            "shaman_experience_to_next_level" : 5720,
+            "stage": 4,
+            "open_skills_count": 10
+        },
+        {
+            "level": 14,
+            "total_shaman_experience": 29120,
+            "shaman_experience_to_next_level" : 6580,
+            "stage": 4,
+            "open_skills_count": 10
+        },
+        {
+            "level": 15,
+            "total_shaman_experience": 35700,
+            "shaman_experience_to_next_level" : 4344,
+            "stage": 4,
+            "open_skills_count": 10
+        },
+        {
+            "level": 16,
+            "total_shaman_experience": 40044,
+            "shaman_experience_to_next_level" : 5364,
+            "stage": 4,
+            "open_skills_count": 10
+        },
+        {
+            "level": 17,
+            "total_shaman_experience": 45408,
+            "shaman_experience_to_next_level" : 6744,
+            "stage": 4,
+            "open_skills_count": 10
+        },
+        {
+            "level": 18,
+            "total_shaman_experience": 52152,
+            "shaman_experience_to_next_level" : 8484,
+            "stage": 4,
+            "open_skills_count": 10
+        },
+        {
+            "level": 19,
+            "total_shaman_experience": 60636,
+            "shaman_experience_to_next_level" : 10584,
+            "stage": 4,
+            "open_skills_count": 10
+        },
+        {
+            "level": 20,
+            "total_shaman_experience": 71220,
+            "shaman_experience_to_next_level" : 13044,
+            "stage": 4,
+            "open_skills_count": 10
+        },
+        {
+            "level": 21,
+            "total_shaman_experience": 84264,
+            "shaman_experience_to_next_level" : 15864,
+            "stage": 4,
+            "open_skills_count": 10
+        },
+        {
+            "level": 22,
+            "total_shaman_experience": 100128,
+            "shaman_experience_to_next_level" : 19044,
+            "stage": 5,
+            "open_skills_count": 13
+        },
+        {
+            "level": 23,
+            "total_shaman_experience": 119172,
+            "shaman_experience_to_next_level" : 22584,
+            "stage": 5,
+            "open_skills_count": 13
+        },
+        {
+            "level": 24,
+            "total_shaman_experience": 141756,
+            "shaman_experience_to_next_level" : 26484,
+            "stage": 5,
+            "open_skills_count": 13
+        },
+        {
+            "level": 25,
+            "total_shaman_experience": 168240,
+            "shaman_experience_to_next_level" : 30744,
+            "stage": 5,
+            "open_skills_count": 13
+        },
+        {
+            "level": 26,
+            "total_shaman_experience": 198984,
+            "shaman_experience_to_next_level" : 35364,
+            "stage": 5,
+            "open_skills_count": 13
+        },
+        {
+            "level": 27,
+            "total_shaman_experience": 234348,
+            "shaman_experience_to_next_level" : 40344,
+            "stage": 5,
+            "open_skills_count": 13
+        },
+        {
+            "level": 28,
+            "total_shaman_experience": 274692,
+            "shaman_experience_to_next_level" : 45650,
+            "stage": 5,
+            "open_skills_count": 13
+        },
+        {
+            "level": 29,
+            "total_shaman_experience": 320342,
+            "shaman_experience_to_next_level" : 51342,
+            "stage": 5,
+            "open_skills_count": 13
+        },
+        {
+            "level": 30,
+            "total_shaman_experience": 371684,
+            "shaman_experience_to_next_level" : 31514,
+            "stage": 5,
+            "open_skills_count": 13
+        },
+        {
+            "level": 31,
+            "total_shaman_experience": 403198,
+            "shaman_experience_to_next_level" : 33195,
+            "stage": 6,
+            "open_skills_count": 16
+        },
+        {
+            "level": 32,
+            "total_shaman_experience": 436393,
+            "shaman_experience_to_next_level" : 35414,
+            "stage": 6,
+            "open_skills_count": 16
+        },
+        {
+            "level": 33,
+            "total_shaman_experience": 471807,
+            "shaman_experience_to_next_level" : 38175,
+            "stage": 6,
+            "open_skills_count": 16
+        },
+        {
+            "level": 34,
+            "total_shaman_experience": 509982,
+            "shaman_experience_to_next_level" : 41685,
+            "stage": 7,
+            "open_skills_count": 17
+        },
+        {
+            "level": 35,
+            "total_shaman_experience": 551667,
+            "shaman_experience_to_next_level" : 45450,
+            "stage": 7,
+            "open_skills_count": 17
+        },
+        {
+            "level": 36,
+            "total_shaman_experience": 597117,
+            "shaman_experience_to_next_level" : 49770,
+            "stage": 7,
+            "open_skills_count": 17
+        },
+        {
+            "level": 37,
+            "total_shaman_experience": 646887,
+            "shaman_experience_to_next_level" : 54645,
+            "stage": 7,
+            "open_skills_count": 17
+        },
+        {
+            "level": 38,
+            "total_shaman_experience": 701532,
+            "shaman_experience_to_next_level" : 60075,
+            "stage": 7,
+            "open_skills_count": 17
+        },
+        {
+            "level": 39,
+            "total_shaman_experience": 761607,
+            "shaman_experience_to_next_level" : 66060,
+            "stage": 7,
+            "open_skills_count": 17
+        },
+        {
+            "level": 40,
+            "total_shaman_experience": 827667,
+            "shaman_experience_to_next_level" : 72600,
+            "stage": 7,
+            "open_skills_count": 17
+        },
+        {
+            "level": 41,
+            "total_shaman_experience": 900267,
+            "shaman_experience_to_next_level" : 79695,
+            "stage": 7,
+            "open_skills_count": 17
+        },
+        {
+            "level": 42,
+            "total_shaman_experience": 979962,
+            "shaman_experience_to_next_level" : 87314,
+            "stage": 7,
+            "open_skills_count": 17
+        },
+        {
+            "level": 43,
+            "total_shaman_experience": 1067276,
+            "shaman_experience_to_next_level" : 95493,
+            "stage": 7,
+            "open_skills_count": 17
+        },
+        {
+            "level": 44,
+            "total_shaman_experience": 1162769,
+            "shaman_experience_to_next_level" : 104170,
+            "stage": 7,
+            "open_skills_count": 17
+        },
+        {
+            "level": 45,
+            "total_shaman_experience": 1266939,
+            "shaman_experience_to_next_level" : 64329,
+            "stage": 7,
+            "open_skills_count": 17
+        },
+        {
+            "level": 46,
+            "total_shaman_experience": 1331268,
+            "shaman_experience_to_next_level" : 68808,
+            "stage": 7,
+            "open_skills_count": 17
+        },
+        {
+            "level": 47,
+            "total_shaman_experience": 1400076,
+            "shaman_experience_to_next_level" : 74729,
+            "stage": 7,
+            "open_skills_count": 17
+        },
+        {
+            "level": 48,
+            "total_shaman_experience": 1474805,
+            "shaman_experience_to_next_level" : 82097,
+            "stage": 7,
+            "open_skills_count": 17
+        },
+        {
+            "level": 49,
+            "total_shaman_experience": 1556902,
+            "shaman_experience_to_next_level" : 90888,
+            "stage": 7,
+            "open_skills_count": 17
+        },
+        {
+            "level": 50,
+            "total_shaman_experience": 1647790,
+            "shaman_experience_to_next_level" : 101129,
+            "stage": 7,
+            "open_skills_count": 17
+        },
+        {
+            "level": 51,
+            "total_shaman_experience": 1748919,
+            "shaman_experience_to_next_level" : "Infinity",
+            "stage": 7,
+            "open_skills_count": 17
+        }
+    ],
+    "Info": 
+    {
         "document_author": "Eixini",
         "date_of_document": "15 May 2024",
         "author_page": "https://github.com/Eixini"
