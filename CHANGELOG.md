@@ -1,3 +1,7 @@
+# 2.0.0 (18.05.2024)
+## Features
+Added the ability to calculate experience for shaman skills.
+
 # 1.0.0 (16.05.2024)
 ## Features
 The main functionality of the application has been implemented:
