@@ -1,6 +1,6 @@
 import sys
 from PySide6.QtWidgets import QApplication
-from RaceForNuts_ExpCalc.window.race_for_nuts_experience import Window
+from RaceForNuts_ExpCalc.main_window.main_window import MainWindow
 
 
 def main():
@@ -8,7 +8,7 @@ def main():
     app.setApplicationName('RaceForNuts_ExpCalc')
     app.setOrganizationName('Eixini Software')
 
-    window = Window()
+    window = MainWindow()
     window.show()
 
     app.exec()
